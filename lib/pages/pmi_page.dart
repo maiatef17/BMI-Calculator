@@ -99,6 +99,12 @@ class _pmiPageState extends State<pmiPage> {
                           fontSize: 20,
                         ),
                       ),
+
+                      SizedBox(height: 40,),
+                      ElevatedButton( style: ElevatedButton.styleFrom(backgroundColor: Colors.grey),onPressed: (){}, child: Text(
+                  'SAVE RESULT',
+                  style: TextStyle(color: Colors.white),
+                ),)
                   ],
                 ),
               ),
