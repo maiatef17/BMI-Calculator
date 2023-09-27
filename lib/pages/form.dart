@@ -55,7 +55,7 @@ bool isFemaleSelected = false;
           style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white),
         ),
       ),
-      body: ListView(
+      body: Padding(padding: EdgeInsets.all(15),child: ListView(
         children: [
           Row(
   children: [
@@ -67,7 +67,7 @@ bool isFemaleSelected = false;
         });
       },
       child: Container(
-        width: 200,
+        width: 185,
         height: 200,
         child: ClipRRect(
           borderRadius: BorderRadius.circular(15),
@@ -113,7 +113,7 @@ bool isFemaleSelected = false;
         });
       },
       child: Container(
-        width: 200,
+        width: 185,
         height: 200,
         child: ClipRRect(
           borderRadius: BorderRadius.circular(15),
@@ -207,7 +207,7 @@ bool isFemaleSelected = false;
           Row(
             children: [
               Container(
-                width: 200,
+                width: 185,
                 height: 200,
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(15),
@@ -273,7 +273,7 @@ bool isFemaleSelected = false;
                 width: 10,
               ),
               Container(
-                width: 200,
+                width: 185,
                 height: 200,
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(15),
@@ -331,7 +331,7 @@ bool isFemaleSelected = false;
             ],
           ),
           SizedBox(
-            height: 50,
+            height: 25,
           ),
           Spacer(),
           ElevatedButton(
@@ -352,7 +352,7 @@ bool isFemaleSelected = false;
             ),
           ),
         ],
-      ),
+      ),)
     );
   }
 }
